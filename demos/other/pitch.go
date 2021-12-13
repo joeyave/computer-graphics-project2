@@ -228,7 +228,6 @@ var paused = true
 
 // Update is called every frame.
 func (p *Pitch) Update(a *app.App, deltaTime time.Duration) {
-
 	if paused == false {
 		timeSince += deltaTime.Seconds()
 
